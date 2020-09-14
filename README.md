@@ -3,7 +3,11 @@
 解决flutter项目抓包问题
 ## Getting Started
 ```
-flutter_packet_capture:
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  flutter_packet_capture: ^1.0.0
 ```
 
 ## 代码调用
