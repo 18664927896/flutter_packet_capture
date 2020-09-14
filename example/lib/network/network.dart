@@ -45,16 +45,6 @@ class Network {
       InterceptorsWrapper(
         onRequest: (Options options) {
           options.headers['Source'] = platform.toLowerCase();
-//          options.headers['sysDeviceId'] = "fffff";
-//          options.headers['AppVersion'] = '1.9.0';
-//          options.headers['channelType'] = "TOP";
-//          options.headers['Source'] = platform.toLowerCase();
-//          options.headers['Device'] = "FFF";
-//          options.headers['utm'] = "VVV";
-//          options.headers['OS'] = 'IOS';
-//          options.headers['DeviceName'] = 'ipone';
-//          options.headers['IsLatest'] = true;
-
           return options;
         },
         onResponse: (Response res) {
