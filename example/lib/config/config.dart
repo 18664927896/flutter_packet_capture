@@ -1,6 +1,6 @@
 class Config {
   /// 正式环境
-  static  String BASE_URL = 'xxxxx';
+  static  String BASE_URL = 'https://xxxxxxx.com';
   static int configType = 2;
 //  初始化配置
   Config.initConfig(){
