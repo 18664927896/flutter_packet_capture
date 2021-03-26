@@ -1,9 +1,7 @@
 class Config {
   /// 正式环境
-  static  String BASE_URL = 'https://m-app-test.topsports.com.cn/app';
+  static  String BASE_URL = 'xxxxx';
   static int configType = 2;
-
-
 //  初始化配置
   Config.initConfig(){
     switch (Config.configType) {
